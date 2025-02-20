@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: 'Work Sans';
+            /*
+
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+            
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+
+            16px geralmente = em
+            em = tamanho da letra normalmente
+            RECOMENDAÇÃO - SEMPRE USAR 'px' OU 'em' SEMPRE!
+            */
+
+            font-size: 2em;
+            /*
+            font-weight: ;  <-- Peso da fonte 
+            usar os parâmetros = 'lighter, normal, bold, bolder'
+            */
+            
+        }
+        h1{
+            font-family: sans-serif;
+            font-weight: bolder;
+            font-size: 4em;
+            font-style: italic;
+            /* shorthand font
+            - font-style -> font-weight -> font-size -> font-family -
+            */
+            font: italic bolder 3em sans-serif
+        }
+        h2{
+            font: bold 5em sans
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias iste eveniet quas consectetur iure nemo architecto ducimus, animi tempora fugiat ut reprehenderit nobis quisquam maxime veniam, repudiandae magnam optio! Cum.lorem</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita eos voluptate rerum illo necessitatibus doloremque magnam beatae nemo? Excepturi eos quo sunt expedita qui atque nihil provident ab sed ipsum.</p>
+
+
+    <h2>Subtitulo lorem</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe vel facere rem nisi eveniet illo, accusantium magnam voluptatum possimus. Nulla consectetur in omnis ratione dicta veritatis eaque asperiores nobis doloribus.</p>
+</body>
+</html>

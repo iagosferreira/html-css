@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(75, 76, 76);
+            margin: 0px;
+        }
+        header{
+            padding: 10px;
+            margin: 10px;
+            background-color:  rgb(215, 223, 223);
+            border-radius: 20px;
+            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.418);
+        }
+        main{
+            background-color:  rgb(215, 223, 223);
+            margin: 10px;
+            padding: 10px;
+            border-radius: 20px;
+            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.418);
+        }
+        footer{
+            background-color: rgb(29, 29, 29);
+            margin: 0px;
+            text-align: center;
+            padding: 6px;
+            color: white;
+        }
+        nav{
+            background-color: darkslategray;
+            padding: 5px;
+            box-shadow: 0px 2px 3px  rgba(0, 0, 0, 0.459);
+            border-radius: 20px;
+        }
+        nav > a{
+            
+            padding: 40px;
+            font-family: 'Times New Roman', Times, serif;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            
+
+        }
+        nav > a:hover{
+            
+            color: rgb(207, 207, 207);
+        }
+        aside{
+            
+            padding: 10px;
+        }
+        aside >p#oi{
+            background-color: darkslategray;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            border-radius: 0px 0px 20px 20px;
+            box-shadow: 0px 2px 3px  rgba(0, 0, 0, 0.459);
+        }
+        footer >p{
+            margin: 0px;
+        }
+        aside#um{
+            border-radius: 20px;
+        }
+        h2#h{
+            background-color: darkslategray;
+            color: white;
+            padding: 10px;
+            border-radius: 20px 20px 0px 0px; 
+            text-align: center;
+        }
+        h1{
+            color: darkslategray;
+            font-weight: bolder;
+            text-align: center;
+        }
+        p{
+            color: darkslategray;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav> 
+            <a href="#"> Link</a> 
+            <a href="#"> Link</a>
+            <a href="#"> Link</a>
+            <a href="#"> Link</a>
+            <a href="#"> Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section class="not">
+            <article>
+                <aside id="um">
+                    <h2 id="h">Noticia</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni fugit consequuntur obcaecati similique delectus earum ad et distinctio quasi repellat in odio at quo odit, tempore quas molestias? Nulla, saepe.</p>
+                    <p id="oi">Artigo de iago</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p id="iago" style="color: white;">Desenvolvido por Iago</p>
+    </footer>
+</body>
+</html>
