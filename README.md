@@ -1,4 +1,4 @@
 # html-css
  estudos
 
-estou aprnde a criar sites e gerenciar repositorios
+estou aprendendo a criar sites e gerenciar repositorios
